@@ -1,0 +1,69 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #3498db;
+}
+.bg-primary {
+  background-color: #3498db; /* Use your desired primary color */
+}
+
+.min-height-100vh {
+  min-height: 100vh;
+}
+
+.light-text {
+  color: #ecf0f1; /* Use your desired light text color */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.card {
+  background-color: #fff; /* Use your desired card background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  width: 100%;
+  max-width: 400px; /* Adjust based on your design */
+}
+
+/* Add more specific styling if needed for form elements */
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.btn-block {
+  width: 100%;
+  padding: 10px;
+  background-color: #2ecc71; /* Use your desired button color */
+  color: #fff; /* Use your desired button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-block:hover {
+  background-color: #27ae60; /* Use your desired button color on hover */
+}
